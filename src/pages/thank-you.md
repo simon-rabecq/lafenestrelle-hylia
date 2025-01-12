@@ -1,6 +1,8 @@
 ---
-title: 'Thank you'
-permalink: '/thank-you/index.html'
+title: Merci
+permalink: /thank-you/index.html
 ---
 
-This is your thank you page where if someone fills in your contact form, they will be directed to. Make sure you add a nice message 🙂
+Ceci est la page de remerciements qui s'affiche quand quelqu'un remplit le formulaire de contacts. 
+
+Merci pour votre message. Nous vous répondrons dans les plus brefs délais. 🙂
