@@ -14,11 +14,11 @@
     },
     {
       "text": "Nouvelles d'ici",
-      "url": "nouvelles"
+      "url": "/nouvelles"
+      {
     },
-    {
       "text": "Ressources",
-      "url": "ressources"
+      "url": "/ressources"
     }
   ]
 }
