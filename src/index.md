@@ -3,10 +3,10 @@ layout: home
 title: La Fenestrelle
 metaDesc: Découvrez les fruits et légumes biologiques de La Fenestrelle. Vente
   directe à la ferme et en circuits courts.
-postsHeading: Posts récents
+postsHeading: Nouvelles d'ici
 archiveButtonText: Tous les posts
 socialImage: ""
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+**La** **Fenestrelle** est un﻿e petite ferme maraîchère agroécologique située à Aubagne, au lieu dit Campagne Lambert.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Depuis avril 2024, on y cultive des fruits et des légumes avec une attention particulière portée à la vie du sol *(intro mode de production* ; sans ceci/cela)
