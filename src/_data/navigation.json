@@ -6,18 +6,13 @@
       "external": false
     },
     {
-      "text": "GitHub",
-      "url": "https://github.com/andy-piccalilli/hylia",
-      "external": true
+      "text": "Agroécologie Paysanne",
+      "url": "/agroecologiepaysanne"
     },
     {
       "text": "Contact",
       "url": "/contact",
       "external": false
-    },
-    {
-      "text": "Agroécologie Paysanne",
-      "url": "/agroecologiepaysanne"
     }
   ]
 }
