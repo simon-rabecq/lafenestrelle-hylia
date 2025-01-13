@@ -1,11 +1,6 @@
 {
   "items": [
     {
-      "text": "Accueil",
-      "url": "/",
-      "external": false
-    },
-    {
       "text": "Agroécologie Paysanne",
       "url": "/agroecologie"
     },
