@@ -1,8 +1,8 @@
 ---
-layout: layouts/page.njk
+layout: layouts/home.njk
 title: Nouvelles d'ici
 permalink: /nouvelles/index.html
-postsHeading: Nouvelles d'ici
+postsHeading: Nos dernières actualités
 archiveButtonText: Tous les posts
 ---
 Nouvelles d'ici - Todo.
