@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
 title: Le Lieu
-permalink: /lieu.html
+permalink: /lieu/index.html
 ---
 Le lieu - Todo.

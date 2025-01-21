@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
 title: Agroécologie Paysanne
-permalink: /agroecologie.html
+permalink: /agroecologie/index.html
 ---
 Todo.

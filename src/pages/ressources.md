@@ -1,6 +1,6 @@
 ---
 layout: layouts/page.njk
 title: Ressources
-permalink: /ressources.html
+permalink: /ressources/index.html
 ---
 Ressources - Todo.
