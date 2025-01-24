@@ -1,12 +1,12 @@
 ---
 title: A scheduled post
-date: 2024-05-31T22:00:00.000Z
+date: 2025-06-01T22:00:00.000Z
 tags:
   - demo-content
   - simple-post
   - blog
 ---
-This post is scheduled for the future, specifically june-2024. Hopefully you're still blogging by then too. Once that date ticks by, this post will automatically become published and visible.
+This post is scheduled for the future, specifically june-2025. Hopefully you're still blogging by then too. Once that date ticks by, this post will automatically become published and visible.
 
 Otherwise, below is some styled content for you to play with.
 
