@@ -8,6 +8,15 @@
     url('/fonts/lora-v13-latin-700.woff') format('woff');
 }
 
+/* DK Lemon Yellow Sun */
+@font-face {
+  font-family: 'DK Lemon Yellow Sun';
+  font-style: normal;
+  font-weight: normal;
+  src: url('/fonts/dk-lemon-yellow-sun.woff') format('woff');
+}
+
+
 body {
   // Strip the unit off the size ratio to generate a line height
   $line-height: get-size(600);
