@@ -2,10 +2,13 @@
 <header role="banner" class="[ site-head ] [ pad-top-700 pad-bottom-700 ">
   <div class="wrapper">
     <div class="[ site-head__inner ] [ md:box-flex space-between align-center ]">
-      <a href="/" class="[ site-head__site-name ] [ leading-tight ]">
-        <span class="visually-hidden">{{ site.name }} - Home</span>
-        <span class="[ site-head__site-name text-800 font-logo ]" aria-hidden="true">{{ site.name }}</span>
-      </a>
+      <div class="logo-and-title [ box-flex align-center ]">
+        <img src="/images/logo-medium.png" alt="Logo" class="logo-img mr-1 h-1 w-1" style="height: 2.5rem !important; width: 2.5rem !important;">
+        <a href="/" class="[ site-head__site-name ] [ leading-tight ]">
+          <span class="visually-hidden">{{ site.name }} - Home</span>
+          <span class="[ site-head__site-name text-800 font-logo ]" aria-hidden="true">{{ site.name }}</span>
+        </a>
+      </div>
       {% set ariaLabel = 'navigation' %}
       {% include "partials/components/nav.njk" %}
     </div>
