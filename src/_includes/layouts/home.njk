@@ -1,25 +1,38 @@
 {% extends 'layouts/base.njk' %}
 
 {# Intro content #}
-{% set introHeading = title %}
+{# {% set introHeading %}
+<p class="[ intro__meta ] [ text-500 leading-tight ]">
+  <span>
+    La Fenestrelle est une petite ferme maraîchère agroécologique labellisée AB,  située à Aubagne, au lieu dit Campagne Lambert.
+    Depuis avril 2024, on y cultive des fruits et des légumes avec une attention particulière portée à la vie du sol.
+    Concrètement, on travaille sans pesticide et on limite au maximum les actions qui perturberaient les bêtes du sol — qui sont les seules à garantir sa pérennité.
+  </span>
+</p>
+{% endset %} #}
 {% set introSummary %}
-  {{ content | safe }}
+<div class="[ md:box-flex space-between align-center ]">
+  <div style="margin-left: 2rem; margin-right: 2rem"> {# Increased margin for more space #}
+    <img src="/images/dessin.jpg" alt="Dessin" style="max-width: 100%; height: auto;">
+  </div>
+  <div>
+    <p class="[ intro__meta ] [ text-500 leading-tight ]" style="margin-bottom: 1rem;"><b>La Fenestrelle</b> est une petite ferme maraîchère agroécologique labellisée AB,  située à Aubagne, au lieu dit Campagne Lambert.</p>
+    <p class="[ intro__meta ] [ text-500 leading-tight ]" style="margin-bottom: 1rem;">Depuis avril 2024, on y cultive des fruits et des légumes avec une attention particulière portée à la vie du sol.</p>
+    <p class="[ intro__meta ] [ text-500 leading-tight ]" style="margin-bottom: 1rem;">Concrètement, on travaille sans pesticide et on limite au maximum les actions qui perturberaient les bêtes du sol — qui sont les seules à garantir sa pérennité.</p>
+  </div>
+</div>
 {% endset %}
 
-{# Post list content #}
-{% set postListHeading = postsHeading %}
-{% set postListItems = collections.postFeed %}
-
-{# Archive link #}
-{% if postListItems.length < collections.posts.length %} 
-  {% set paginationNextText = archiveButtonText %}
-  {% set paginationNextUrl = '/archive' %}
-{% endif %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    {% include "partials/components/intro.njk" %}
-    {% include "partials/components/post-list.njk" %}
-    {% include "partials/components/pagination.njk" %}
+    <article class="[ post ] [ h-entry ]">
+      {% include "partials/components/intro.njk" %}
+      <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]">
+        {{ content | safe }}
+      </div>
+    </article>
   </main>
 {% endblock %}
+
+{{ content | safe }}
