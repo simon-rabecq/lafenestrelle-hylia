@@ -1,8 +1,8 @@
 ---
 layout: layouts/home.njk
-title: Nouvelles d'ici
-permalink: /nouvelles/index.html
+title: Blog
+permalink: /blog/index.html
 postsHeading: Nos dernières actualités
 archiveButtonText: Tous les posts
 ---
-Nouvelles d'ici - Todo.
+Blog - Todo.
