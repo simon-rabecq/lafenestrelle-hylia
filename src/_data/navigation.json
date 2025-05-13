@@ -1,10 +1,6 @@
 {
   "items": [
     {
-      "text": "Agroécologie Paysanne",
-      "url": "/agroecologie"
-    },
-    {
       "text": "Les Produits",
       "url": "/produits"
     },
@@ -13,12 +9,8 @@
       "url": "/lieu"
     },
     {
-      "text": "Nouvelles d'ici",
-      "url": "/nouvelles"
-    },
-    {
-      "text": "Ressources",
-      "url": "/ressources"
+      "text": "Blog",
+      "url": "/blog"
     }
   ]
 }
