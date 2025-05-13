@@ -12,3 +12,7 @@ socialImage: ""
 Depuis avril 2024, on y cultive des fruits et des légumes avec une attention particulière portée à la vie du sol.
 
 Concrètement, on travaille sans pesticide et on limite au maximum les actions qui perturberaient les bêtes du sol – qui sont les seules à garantir sa pérennité.
+
+
+
+![](/images/img-20241216-wa0008.jpg)
